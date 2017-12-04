@@ -7,8 +7,9 @@ You'll need to register a project with google [here](https://console.developers.
 
 You'll need a clientsecret.json file, formatted like specified in [this link](https://developers.google.com/api-client-library/python/guide/aaa_client_secrets)
 
-
-my client_secrets.json looks like this: {
+my client_secrets.json looks like this: 
+```
+{
   "installed": {
     "client_id":<CLIENT_ID,
     "project_id":<PROJECT_ID>,
@@ -19,3 +20,4 @@ my client_secrets.json looks like this: {
     "redirect_uris":["urn:ietf:wg:oauth:2.0:oob","http://localhost:8080"]
   }
 }
+```
